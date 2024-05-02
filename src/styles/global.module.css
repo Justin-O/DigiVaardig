@@ -1,0 +1,11 @@
+.buttonBase {
+	@apply flex justify-between items-center text-lg font-semibold rounded-md transition-all duration-200;
+}
+
+.buttonDefault {
+	@apply px-4 py-2;
+}
+
+.buttonSmall {
+	@apply px-4 py-1;
+}

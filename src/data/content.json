@@ -1,0 +1,72 @@
+{
+	"chapters": [
+		{
+			"chapterId": 1,
+			"chapterTitle": "Kennismaking",
+			"assignments": [
+				{
+					"assignmentId": 1,
+					"assignmentTitle": "Muis en toetsenbord",
+					"assignmentImage": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/input-devices/dell/keyboards/km5221w/pdp/dell-keyboard-mouse-km5221w-pdp-campaign-hero-504x350.jpg?hei=402&qtl=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto",
+					"assignmentSteps": [
+						{
+							"stepId": 1,
+							"stepTitle": "Test uw muis en toetsenbord",
+							"stepImage": "",
+							"stepDescription": "Beweeg uw muis en kijk of u hem ziet bewegen op het scherm."
+						},
+						{
+							"stepId": 2,
+							"stepTitle": "Test uw muis en toetsenbord",
+							"stepImage": "",
+							"stepDescription": "Beweeg uw muis en kijk of u hem ziet bewegen op het scherm."
+						},
+						{
+							"stepId": 3,
+							"stepTitle": "Test uw muis en toetsenbord",
+							"stepImage": "",
+							"stepDescription": "Beweeg uw muis en kijk of u hem ziet bewegen op het scherm."
+						}
+					]
+				},
+				{
+					"assignmentId": 2,
+					"assignmentTitle": "De internetbrowser",
+					"assignmentImage": "https://d36pj450k6628s.cloudfront.net/w_1920,h_1080,q_100/s3-kassa-bnnvara/a83f80d0-aee5-4767-901f-248057e9f2ac.jpg",
+					"assignmentSteps": [
+						{
+							"stepId": 1,
+							"stepTitle": "Open uw internet browser",
+							"stepImage": "",
+							"stepDescription": "Zoek uw internetbrowser op en open het."
+						},
+						{
+							"stepId": 2,
+							"stepTitle": "Open uw internet browser",
+							"stepImage": "",
+							"stepDescription": "Zoek uw internetbrowser op en open het."
+						},
+						{
+							"stepId": 3,
+							"stepTitle": "Open uw internet browser",
+							"stepImage": "",
+							"stepDescription": "Zoek uw internetbrowser op en open het."
+						}
+					]
+				}
+			],
+			"tips": [
+				{
+					"tipId": 1,
+					"tipText": "Wanneer u het internet wilt gebruiken, gebruikt u altijd een internetbrowser."
+				}
+			]
+		},
+		{ "chapterId": 2, "chapterTitle": "Het internet op" },
+		{ "chapterId": 3, "chapterTitle": "Een e-mail versturen" },
+		{ "chapterId": 4, "chapterTitle": "Shoppen op het internet" },
+		{ "chapterId": 5, "chapterTitle": "Formulieren en social-media" },
+		{ "chapterId": 6, "chapterTitle": "Orde op je computer" },
+		{ "chapterId": 7, "chapterTitle": "Veiligheid" }
+	]
+}

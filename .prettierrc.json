@@ -1,0 +1,20 @@
+{
+	"tabWidth": 4,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": false,
+	"printWidth": 100,
+	"trailingComma": "all",
+	"bracketSpacing": true,
+	"bracketSameLine": true,
+	"importOrder": [
+		"^(^react$|@react|react|^recoil$)",
+		"^@mui/(.*)$",
+		"<THIRD_PARTY_MODULES>",
+		"^@/(.*)$",
+		"^[./]"
+	],
+	"importOrderGroupNamespaceSpecifiers": true,
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}
