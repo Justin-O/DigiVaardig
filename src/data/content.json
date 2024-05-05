@@ -2,7 +2,9 @@
 	"chapters": [
 		{
 			"chapterId": 1,
+			"chapterURL": "kennismaking",
 			"chapterTitle": "Kennismaking",
+			"chapterDescription": "Om uw computer of andere apparaten goed te kunnen besturen moet u een aantal basisvaardigheden beheersen. In dit hoofdstuk vindt u verschillende oefeningen die u hier bij kunnen helpen.",
 			"assignments": [
 				{
 					"assignmentId": 1,
@@ -32,7 +34,96 @@
 				{
 					"assignmentId": 2,
 					"assignmentTitle": "De internetbrowser",
-					"assignmentImage": "https://d36pj450k6628s.cloudfront.net/w_1920,h_1080,q_100/s3-kassa-bnnvara/a83f80d0-aee5-4767-901f-248057e9f2ac.jpg",
+					"assignmentImage": "https://editors.dexerto.com/wp-content/uploads/2023/05/02/Best-Internet-Browsers.jpg",
+					"assignmentSteps": [
+						{
+							"stepId": 1,
+							"stepTitle": "Open uw internet browser",
+							"stepImage": "",
+							"stepDescription": "Zoek uw internetbrowser op en open het."
+						},
+						{
+							"stepId": 2,
+							"stepTitle": "Open uw internet browser",
+							"stepImage": "",
+							"stepDescription": "Zoek uw internetbrowser op en open het."
+						},
+						{
+							"stepId": 3,
+							"stepTitle": "Open uw internet browser",
+							"stepImage": "",
+							"stepDescription": "Zoek uw internetbrowser op en open het."
+						}
+					]
+				}
+			],
+			"tips": [
+				{
+					"tipId": 1,
+					"tipText": "Om iets te slepen of te selecteren, houdt u altijd uw linkermuisknop ingedrukt."
+				}
+			]
+		},
+		{
+			"chapterId": 2,
+			"chapterURL": "het-internet-op",
+			"chapterTitle": "Het internet op",
+			"chapterDescription": "Op het internet kunt u veel verschillende dingen doen. In de oefenignen van dit hoofdstuk maakt u kennis met de verschillende mogelijkheden die het internet te bieden heeft.",
+			"assignments": [
+				{
+					"assignmentId": 1,
+					"assignmentTitle": "Informatie zoeken op Google",
+					"assignmentImage": "https://www.keyweo.com/wp-content/uploads/2022/04/google-logo-history.jpg",
+					"assignmentSteps": [
+						{
+							"stepId": 1,
+							"stepTitle": "Test uw muis en toetsenbord",
+							"stepImage": "",
+							"stepDescription": "Beweeg uw muis en kijk of u hem ziet bewegen op het scherm."
+						},
+						{
+							"stepId": 2,
+							"stepTitle": "Test uw muis en toetsenbord",
+							"stepImage": "",
+							"stepDescription": "Beweeg uw muis en kijk of u hem ziet bewegen op het scherm."
+						},
+						{
+							"stepId": 3,
+							"stepTitle": "Test uw muis en toetsenbord",
+							"stepImage": "",
+							"stepDescription": "Beweeg uw muis en kijk of u hem ziet bewegen op het scherm."
+						}
+					]
+				},
+				{
+					"assignmentId": 2,
+					"assignmentTitle": "Video's bekijken op YouTube",
+					"assignmentImage": "https://www.searchenginejournal.com/wp-content/uploads/2021/02/e9d716d3-bdbb-4449-adce-fbbd879f5b13-602c86b55629a.jpeg",
+					"assignmentSteps": [
+						{
+							"stepId": 1,
+							"stepTitle": "Open uw internet browser",
+							"stepImage": "",
+							"stepDescription": "Zoek uw internetbrowser op en open het."
+						},
+						{
+							"stepId": 2,
+							"stepTitle": "Open uw internet browser",
+							"stepImage": "",
+							"stepDescription": "Zoek uw internetbrowser op en open het."
+						},
+						{
+							"stepId": 3,
+							"stepTitle": "Open uw internet browser",
+							"stepImage": "",
+							"stepDescription": "Zoek uw internetbrowser op en open het."
+						}
+					]
+				},
+				{
+					"assignmentId": 3,
+					"assignmentTitle": "Bekijk het nieuws online",
+					"assignmentImage": "https://avondlicht-herwijnen.nl/wp-content/uploads/2021/04/header-nieuws.jpg",
 					"assignmentSteps": [
 						{
 							"stepId": 1,
@@ -62,11 +153,26 @@
 				}
 			]
 		},
-		{ "chapterId": 2, "chapterTitle": "Het internet op" },
-		{ "chapterId": 3, "chapterTitle": "Een e-mail versturen" },
-		{ "chapterId": 4, "chapterTitle": "Shoppen op het internet" },
-		{ "chapterId": 5, "chapterTitle": "Formulieren en social-media" },
-		{ "chapterId": 6, "chapterTitle": "Orde op je computer" },
-		{ "chapterId": 7, "chapterTitle": "Veiligheid" }
+		{
+			"chapterId": 3,
+			"chapterURL": "een-e-mail-versturen",
+			"chapterTitle": "Een e-mail versturen"
+		},
+		{
+			"chapterId": 4,
+			"chapterURL": "shoppen-op-het-internet",
+			"chapterTitle": "Shoppen op het internet"
+		},
+		{
+			"chapterId": 5,
+			"chapterURL": "formulieren-en-social-media",
+			"chapterTitle": "Formulieren en social-media"
+		},
+		{
+			"chapterId": 6,
+			"chapterURL": "orde-op-je-computer",
+			"chapterTitle": "Orde op je computer"
+		},
+		{ "chapterId": 7, "chapterURL": "veiligheid", "chapterTitle": "Veiligheid" }
 	]
 }
