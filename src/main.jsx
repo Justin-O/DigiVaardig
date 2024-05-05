@@ -23,13 +23,13 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: "/:chapterTitle/:assignmentTitle",
-		element: <AssignmentDescriptionPage />,
+		path: "/:chapterURL/:assignmentURL",
+		element: <AssignmentDescriptionPage contentData={contentData} />,
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: "/:chapterTitle/:assignmentTitle/:assignmentStepId",
-		element: <AssignmentStepsPage />,
+		path: "/:chapterURL/:assignmentURL/:assignmentStepId",
+		element: <AssignmentStepsPage contentData={contentData} />,
 		errorElement: <ErrorPage />,
 	},
 ]);
