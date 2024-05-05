@@ -14,7 +14,7 @@ function HomePage({ contentData }) {
 					{contentData.chapters.map((chapter) => (
 						// Chapter button element
 						<Link
-							to={`${chapter.chapterTitle.toLowerCase().replace(/\s+/g, "-")}`} //Replacing the spaces in the chapter titles with hyphens for the readability of the URL
+							to={chapter.chapterURL}
 							key={chapter.chapterId}
 							className="flex justify-between items-center gap-3 xs:gap-4 px-4 py-5 lg:py-3 bg-white hover:bg-lightgrey hover:drop-shadow-sm rounded-md border border-grey text-black text-lg xs:text-2xl font-bold">
 							<div className="flex justify-center items-center rounded-full border-[5px] border-pink min-w-[50px] min-h-[50px] xs:min-w-[60px] xs:min-h-[60px] text-pink font-bold text-2xl xs:text-4xl">
