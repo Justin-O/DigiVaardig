@@ -25,22 +25,26 @@ function Header(props) {
 			<div
 				className={`${props.subheader && isScrolled ? "hidden" : "flex absolute top-0 justify-between items-center bg-black w-full h-24 px-4 md:px-8"}`}>
 				<Link
+					aria-label="Navigeer naar de homepagina"
 					className={`${props.subheader && isScrolled ? "hidden" : "flex items-center h-full"}`}
 					to={"/"}>
 					<h1 className="text-2xl md:text-3xl text-white font-normal">
 						dbieb - <span className="font-bold text-red">DigiVaardig</span>
 					</h1>
 				</Link>
-				<button
+				<Link
+					aria-label="Navigeer naar de rondleiding"
+					to={"/rondleiding/1"}
 					className={`${props.subheader && isScrolled ? "hidden" : "flex"}  justify-center items-center rounded-full w-11 h-11 bg-white text-3xl font-bold`}>
 					?
-				</button>
+				</Link>
 			</div>
 			{props.subheader && (
 				<div
 					className={`${isScrolled ? "fixed" : "absolute top-24"} flex items-center bg-darkgrey w-full h-16 px-4 md:px-8`}>
 					<div className="flex justify-start w-1/3 md:w-1/5">
 						<Link
+							aria-label="Navigeer naar terug de vorige pagina"
 							to={props.backButtonPath}
 							className={`${styles.buttonBase} bg-white hover:bg-grey border border-grey gap-2 pl-1 pr-2 py-1`}>
 							<FaAngleLeft size={22} />
