@@ -19,7 +19,7 @@ function AssignmentDescriptionPage({ contentData }) {
 			<Header
 				subheader
 				headerTitle={currentAssignmentData.assignmentTitle}
-				backButtonPath={"../"}
+				backButtonPath={`/${chapterURL}`}
 			/>
 			<div className="flex w-full justify-center">
 				<div className="flex flex-col justify-center gap-6 px-6 cards:px-0 pb-16 pt-48 md:pt-52 w-full max-w-3xl min-h-screen">
