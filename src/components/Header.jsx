@@ -21,7 +21,7 @@ function Header(props) {
 	}, []);
 
 	return (
-		<header className={`${props.subheader ? "relative" : "fixed"} flex flex-col w-full`}>
+		<header className={`${props.subheader ? "relative" : "fixed"} flex flex-col w-full z-50`}>
 			<div
 				className={`${props.subheader && isScrolled ? "hidden" : "flex absolute top-0 justify-between items-center bg-black w-full h-24 px-4 md:px-8"}`}>
 				<Link
