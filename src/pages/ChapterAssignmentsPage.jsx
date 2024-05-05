@@ -52,7 +52,7 @@ function ChapterAssignmentsPage({ contentData }) {
 								<div
 									key={assignment.assignmentId}
 									className="flex flex-col min-w-[272px] max-h-[304px] max-w-[370px] w-full bg-white rounded-md border border-grey overflow-hidden">
-									<Link to={`PlaceholderAssignment`}>
+									<Link to={assignment.assignmentURL}>
 										<img
 											src={assignment.assignmentImage}
 											alt="Opdracht afbeelding"
@@ -64,7 +64,7 @@ function ChapterAssignmentsPage({ contentData }) {
 											{assignment.assignmentTitle}
 										</h3>
 										<Link
-											to={`/${chapterURL}/PlaceholderAssignment`}
+											to={assignment.assignmentURL}
 											className={`${styles.buttonBase} ${styles.buttonDefault} bg-black hover:bg-darkgrey text-white w-fit gap-6`}>
 											Open oefening
 											<FaArrowRightLong size={24} />
