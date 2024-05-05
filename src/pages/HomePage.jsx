@@ -14,6 +14,7 @@ function HomePage({ contentData }) {
 					{contentData.chapters.map((chapter) => (
 						// Chapter button element
 						<Link
+							aria-label={`Navigeer naar hoofdstuk: ${chapter.chapterTitle}`}
 							to={chapter.chapterURL}
 							key={chapter.chapterId}
 							className="flex justify-between items-center gap-3 xs:gap-4 px-4 py-5 lg:py-3 bg-white hover:bg-lightgrey hover:drop-shadow-sm rounded-md border border-grey text-black text-lg xs:text-2xl font-bold">
