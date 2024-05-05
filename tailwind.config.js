@@ -21,7 +21,11 @@ export default {
 			xl: "1280px",
 			"2xl": "1536px",
 		},
-		extend: {},
+		extend: {
+			boxShadow: {
+				top: "0px -3px 20px rgba(0, 0, 0, 0.2)",
+			},
+		},
 	},
 	plugins: [],
 };
