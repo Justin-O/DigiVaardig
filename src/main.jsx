@@ -20,14 +20,17 @@ const router = createBrowserRouter([
 	{
 		path: "/:chapterURL",
 		element: <ChapterAssignmentsPage contentData={contentData} />,
+		errorElement: <ErrorPage />,
 	},
 	{
 		path: "/:chapterTitle/:assignmentTitle",
 		element: <AssignmentDescriptionPage />,
+		errorElement: <ErrorPage />,
 	},
 	{
 		path: "/:chapterTitle/:assignmentTitle/:assignmentStepId",
 		element: <AssignmentStepsPage />,
+		errorElement: <ErrorPage />,
 	},
 ]);
 

@@ -10,7 +10,7 @@ function ChapterAssignmentsPage({ contentData }) {
 		(chapter) => chapter.chapterURL === chapterURL,
 	);
 	const assignmentsData = currentChapterData ? currentChapterData.assignments : undefined;
-	const tipsData = currentChapterData.tips;
+	const tipsData = currentChapterData ? currentChapterData.tips : undefined;
 
 	return (
 		<>
