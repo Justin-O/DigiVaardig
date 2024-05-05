@@ -8,8 +8,10 @@
 			"assignments": [
 				{
 					"assignmentId": 1,
+					"assignmentURL": "muis-en-toetsenbord",
 					"assignmentTitle": "Muis en toetsenbord",
 					"assignmentImage": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/input-devices/dell/keyboards/km5221w/pdp/dell-keyboard-mouse-km5221w-pdp-campaign-hero-504x350.jpg?hei=402&qtl=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto",
+					"assignmentDescription": "In deze oefening wordt stapsgewijs uitgelegd hoe u de tekstopmaak van uw e-mails kunt aanpassen, inclusief het wijzigen van lettertypen, groottes en kleuren. Door deze vaardigheden te leren, kunt u niet alleen uw e-mails personaliseren, maar ook de leesbaarheid verbeteren en uw boodschap effectiever overbrengen.\n\nOf u nu wilt opvallen met creatieve kleuren en stijlen of een professionele uitstraling wilt behouden, deze oefening biedt de tools die u nodig hebt om uw e-mailcommunicatie naar een hoger niveau te tillen.",
 					"assignmentSteps": [
 						{
 							"stepId": 1,
@@ -33,8 +35,10 @@
 				},
 				{
 					"assignmentId": 2,
+					"assignmentURL": "de-internetbrowser",
 					"assignmentTitle": "De internetbrowser",
 					"assignmentImage": "https://editors.dexerto.com/wp-content/uploads/2023/05/02/Best-Internet-Browsers.jpg",
+					"assignmentDescription": "De internetbrowser - beschrijving",
 					"assignmentSteps": [
 						{
 							"stepId": 1,
@@ -72,8 +76,10 @@
 			"assignments": [
 				{
 					"assignmentId": 1,
+					"assignmentURL": "informatie-zoeken-op-google",
 					"assignmentTitle": "Informatie zoeken op Google",
 					"assignmentImage": "https://www.keyweo.com/wp-content/uploads/2022/04/google-logo-history.jpg",
+					"assignmentDescription": "Informatie zoeken op Google - beschrijving",
 					"assignmentSteps": [
 						{
 							"stepId": 1,
@@ -97,8 +103,10 @@
 				},
 				{
 					"assignmentId": 2,
+					"assignmentURL": "videos-bekijken-op-youtube",
 					"assignmentTitle": "Video's bekijken op YouTube",
 					"assignmentImage": "https://www.searchenginejournal.com/wp-content/uploads/2021/02/e9d716d3-bdbb-4449-adce-fbbd879f5b13-602c86b55629a.jpeg",
+					"assignmentDescription": "Video's bekijken op YouTube - beschrijving",
 					"assignmentSteps": [
 						{
 							"stepId": 1,
@@ -122,8 +130,10 @@
 				},
 				{
 					"assignmentId": 3,
+					"assignmentURL": "bekijk-het-nieuws-online",
 					"assignmentTitle": "Bekijk het nieuws online",
 					"assignmentImage": "https://avondlicht-herwijnen.nl/wp-content/uploads/2021/04/header-nieuws.jpg",
+					"assignmentDescription": "Bekijk het nieuws online - beschrijving",
 					"assignmentSteps": [
 						{
 							"stepId": 1,
