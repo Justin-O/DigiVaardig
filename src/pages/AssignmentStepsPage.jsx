@@ -116,7 +116,7 @@ function AssignmentStepsPage({ contentData }) {
 								{currentAssignmentData.assignmentSteps.map((assignmentStep) => (
 									<div
 										key={assignmentStep.stepId}
-										className={`flex justify-center items-center h-8 w-8 rounded-full bg-${assignmentStep.stepId <= parseInt(assignmentStepId) ? "red" : "[#A5A5A5]"} font-semibold text-lg`}>
+										className={`flex justify-center items-center h-8 w-8 rounded-full ${assignmentStep.stepId <= parseInt(assignmentStepId) ? "bg-red" : "bg-mediumgrey"} font-semibold text-lg`}>
 										{assignmentStep.stepId}
 									</div>
 								))}
