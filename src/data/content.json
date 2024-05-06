@@ -10,26 +10,32 @@
 					"assignmentId": 1,
 					"assignmentURL": "muis-en-toetsenbord",
 					"assignmentTitle": "Muis en toetsenbord",
-					"assignmentImage": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/input-devices/dell/keyboards/km5221w/pdp/dell-keyboard-mouse-km5221w-pdp-campaign-hero-504x350.jpg?hei=402&qtl=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto",
-					"assignmentDescription": "In deze oefening wordt stapsgewijs uitgelegd hoe u de tekstopmaak van uw e-mails kunt aanpassen, inclusief het wijzigen van lettertypen, groottes en kleuren. Door deze vaardigheden te leren, kunt u niet alleen uw e-mails personaliseren, maar ook de leesbaarheid verbeteren en uw boodschap effectiever overbrengen.\n\nOf u nu wilt opvallen met creatieve kleuren en stijlen of een professionele uitstraling wilt behouden, deze oefening biedt de tools die u nodig hebt om uw e-mailcommunicatie naar een hoger niveau te tillen.",
+					"assignmentImage": "https://cdn.vectorstock.com/i/500p/02/90/retro-keyboard-and-mouse-vector-7570290.jpg",
+					"assignmentDescription": "In deze oefening gaan we kijken hoe u de muis en het toetsenbord kunt gebruiken bij uw computer.\n\nWe nemen in het kort door hoe u de muis en het toestenbord aansluit, hoe u dingen kunt slepen en selecteren en hoe u karakters kunt typen.",
 					"assignmentSteps": [
 						{
 							"stepId": 1,
-							"stepTitle": "Test uw muis en toetsenbord",
-							"stepImage": "",
-							"stepDescription": "Beweeg uw muis en kijk of u hem ziet bewegen op het scherm."
+							"stepTitle": "Sluit uw muis en toetsenbord aan",
+							"stepImage": "https://i.gifer.com/NfvN.gif",
+							"stepDescription": "Sluit eerst uw muis aan door de kabel in de juiste poort te steken. In de meeste gevallen is dit een USB poort. Heeft u een draadloze muis of toetsenbord, sluit deze dan aan via de USB dongle of verbind ze via bluetooth."
 						},
 						{
 							"stepId": 2,
-							"stepTitle": "Test uw muis en toetsenbord",
-							"stepImage": "",
-							"stepDescription": "Beweeg uw muis en kijk of u hem ziet bewegen op het scherm."
+							"stepTitle": "Tekst selecteren met de muis",
+							"stepImage": "https://static.javatpoint.com/msword/images/how-to-select-text-in-ms-word1.png",
+							"stepDescription": "Om tekst te selecteren, moet je met de muis naar de tekst gaan die je wilt selecteren. Dan houd je de linkermuisknop ingedrukt terwijl je langs de tekst gaat die je wilt hebben.\n\nJe ziet welke tekst je hebt geselecteerd doordat er een andere kleur omheen komt, zoals je kunt zien in de afbeelding hierboven."
 						},
 						{
 							"stepId": 3,
-							"stepTitle": "Test uw muis en toetsenbord",
-							"stepImage": "",
-							"stepDescription": "Beweeg uw muis en kijk of u hem ziet bewegen op het scherm."
+							"stepTitle": "Bestanden verplaatsen met de muis door te slepen",
+							"stepImage": "https://i.kym-cdn.com/photos/images/original/001/020/998/7e2.gif",
+							"stepDescription": "Net als bij het selecteren van tekst moet je om een bestand te slepen de muis de linkermuisknop ingedrukt houden.\n\nPlaats de muis op het bestand dat je wilt verplaats, houdt de linkmuisknop ingedrukt en beweeg de muis naar de plek waar je het bestand naartoe wilt verplaatsen. Wanneer je het bestand neer wilt zetten laat je de linkermuisknop weer los."
+						},
+						{
+							"stepId": 4,
+							"stepTitle": "Speciale karakters typen",
+							"stepImage": "https://support.ricoh.com/bb_v1oi/pub_e/oi_view/0001054/0001054692/view/start/image/dbh209.gif",
+							"stepDescription": "Als je speciale karakters of symbolen wilt typen gebruik je de shift toets.\n\nDe shift toets doet meer dan alleen hoofdletters typen, je kan er ook de alternatieve tekens op het toetsenbord mee activeren. Kijk bijvoorbeeld eens bij de nummers op je toetsenbord. De tekens onder de nummers kunt u typen door shift ingedrukt te houden en vervolgens op een van de nummers te drukken. Zo druk je bijvoorbeeld voor het typen van een uitroepteken op shift en 1."
 						}
 					]
 				},
