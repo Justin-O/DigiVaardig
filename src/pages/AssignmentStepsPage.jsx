@@ -81,7 +81,7 @@ function AssignmentStepsPage({ contentData }) {
 						</>
 					)}
 					{descriptionParagraphs && (
-						<div>
+						<div className="flex flex-col gap-5">
 							{descriptionParagraphs.map((paragraph, index) => (
 								<p className="text-base" key={index}>
 									{paragraph}
