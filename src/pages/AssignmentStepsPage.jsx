@@ -102,7 +102,7 @@ function AssignmentStepsPage({ contentData }) {
 										? `/${chapterURL}/${assignmentURL}`
 										: `${previousStepUrl}`
 								}
-								className={`order-2 sm:order-1 ${styles.buttonBase} gap-2 pl-2 pr-4 py-2 bg-white hover:bg-grey border border-grey`}>
+								className={`order-2 sm:order-1 ${styles.buttonBase} gap-2 pl-2 pr-4 py-2 bg-white hover:bg-grey border border-grey min-w-[135px]`}>
 								<FaAngleLeft size={22} />
 								Vorige
 							</Link>
@@ -125,15 +125,15 @@ function AssignmentStepsPage({ contentData }) {
 								<Link
 									aria-label="Beëindigen oefening en navigeer terug naar het hoofdstuk"
 									to={`/${chapterURL}`}
-									className={`order-3 ${styles.buttonBase} gap-2 pl-4 pr-2 py-2 bg-red hover:bg-pink text-black`}>
-									Beëindigen
+									className={`order-3 ${styles.buttonBase} gap-2 pl-4 pr-2 py-2 bg-red hover:bg-pink text-black min-w-[135px]`}>
+									Sluiten
 									<FaAngleRight size={22} />
 								</Link>
 							) : (
 								<Link
 									aria-label="Navigeer naar de volgende stap in de oefening"
 									to={`${nextStepUrl}`}
-									className={`order-3 ${styles.buttonBase} gap-2 pl-4 pr-2 py-2 bg-black hover:bg-darkgrey text-white`}>
+									className={`order-3 ${styles.buttonBase} gap-2 pl-4 pr-2 py-2 bg-black hover:bg-darkgrey text-white min-w-[135px]min-w-[135px]`}>
 									Volgende
 									<FaAngleRight size={22} />
 								</Link>

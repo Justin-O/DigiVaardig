@@ -1,5 +1,5 @@
 .buttonBase {
-	@apply flex justify-between items-center text-lg font-semibold rounded-md transition-all duration-200;
+	@apply flex justify-center items-center text-lg font-semibold rounded-md transition-all duration-200;
 }
 
 .buttonDefault {
