@@ -72,7 +72,7 @@ function OnboardingContainer({ children }) {
 								<Link
 									aria-label="Navigeer naar de volgende stap in de oefening"
 									to={"/"}
-									className={`${styles.buttonBase} gap-2 px-4 py-2 bg-red hover:bg-darkgrey border border-red text-black min-w-[138px]`}>
+									className={`${styles.buttonBase} gap-2 px-4 py-2 bg-red hover:bg-pink border border-red hover:border-pink text-black min-w-[138px]`}>
 									Beginnen
 								</Link>
 							) : (
